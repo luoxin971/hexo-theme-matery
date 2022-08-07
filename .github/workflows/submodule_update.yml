@@ -20,6 +20,7 @@ jobs:
       CHECKOUT_BRANCH: 'master'
       PR_AGAINST_BRANCH: 'master'
       OWNER: 'luoxin971'
+      LABEL: 'automerge'
 
     steps:
       ##########################
@@ -40,3 +41,4 @@ jobs:
           checkout_branch: ${{ env.CHECKOUT_BRANCH}}
           pr_against_branch: ${{ env.PR_AGAINST_BRANCH }}
           owner: ${{ env.OWNER }}
+          label: ${{ env.LABEL }}
