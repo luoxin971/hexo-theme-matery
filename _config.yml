@@ -460,96 +460,96 @@ baiduPush: true
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在设置js及css路径中可以直接写.min.xxx
 libs:
   css:
-    matery: /css/matery.css
-    mycss: /css/my.css
-    post: /css/post.css
-    reward: /css/reward.css
-    dark: /css/dark.css
-    indexcover: /css/indexcover.css
-    gallery: /css/gallery.css
-    fontAwesome: /libs/awesome/css/all.min.css # V6.1.2 20220809
-    materialize: /libs/materialize/materialize.min.css # 1.0.0 20211109
-    aos: /libs/aos/aos.css
-    animate: /libs/animate/animate.min.css # V3.5.1
-    lightgallery: /libs/lightGallery/css/lightgallery.min.css # V1.10.0
-    aplayer: /libs/aplayer/APlayer.min.css
-    dplayer: /libs/dplayer/DPlayer.min.css
-    gitalk: /libs/gitalk/gitalk.css
-    jqcloud: /libs/jqcloud/jqcloud.css
-    tocbot: /libs/tocbot/tocbot.css
-    prism: /libs/prism/prism.min.css
-    mermaid: /libs/mermaid/mermaid.min.css
-    fancybox: /libs/fancybox/jquery.fancybox.css
-    justifiedGallery: /libs/justifiedGallery/justifiedGallery.min.css
+    matery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/matery.css
+    mycss: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/my.css
+    post: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/post.css
+    reward: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/reward.css
+    dark: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/dark.css
+    indexcover: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/indexcover.css
+    gallery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/css/gallery.css
+    fontAwesome: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/awesome/css/all.min.css # V6.1.2 20220809
+    materialize: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/materialize/materialize.min.css # 1.0.0 20211109
+    aos: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/aos/aos.css
+    animate: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/animate/animate.min.css # V3.5.1
+    lightgallery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/lightGallery/css/lightgallery.min.css # V1.10.0
+    aplayer: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/aplayer/APlayer.min.css
+    dplayer: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/dplayer/DPlayer.min.css
+    gitalk: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/gitalk/gitalk.css
+    jqcloud: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/jqcloud/jqcloud.css
+    tocbot: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/tocbot/tocbot.css
+    prism: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/prism/prism.min.css
+    mermaid: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/mermaid/mermaid.min.css
+    fancybox: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/fancybox/jquery.fancybox.css
+    justifiedGallery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/justifiedGallery/justifiedGallery.min.css
   js:
-    matery: /js/matery.js
-    sc2tc: /js/tw_cn.js
-    jquery: /libs/jquery/jquery-3.6.0.min.js  #3.6.0 20211109
-    materialize: /libs/materialize/materialize.min.js # 1.0.0
-    masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
-    aos: /libs/aos/aos.js
-    scrollProgress: /libs/scrollprogress/scrollProgress.min.js
-    lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.10.0
-    typed: /libs/typed/typed.js
-    clicklove: /libs/others/clicklove.js
-    sakura: /libs/others/sakura.js
-    star: /libs/others/star.js
-    snow: /libs/others/snow.js
-    tcaptcha: /libs/others/TencentCaptcha.js
-    busuanzi: /libs/others/busuanzi.pure.mini.js
-    aplayer: /libs/aplayer/APlayer.min.js
-    meting: /libs/aplayer/Meting.min.js
-    dplayer: /libs/dplayer/DPlayer.min.js
-    crypto: /libs/cryptojs/crypto-js.min.js
-    echarts: /libs/echarts/echarts.min.js
-    gitalk: /libs/gitalk/gitalk.min.js
-    valine: /libs/valine/Valine.min.js # 若想保持最新版，请替换为 https://unpkg.com/valine/dist/Valine.min.js  默认为 /libs/valine/Valine.min.js
-    minivaline: /libs/minivaline/MiniValine.js # latest
-    waline: /libs/waline/Waline.min.js # 若想保持最新版，请替换为 https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js 默认为(1.5.2版本) /libs/valine/Valine.min.js
-    twikoo: /libs/twikoo/twikoo.all.min.js # 若想保持最新版，请替换为 https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js  默认为 /libs/twikoo/twikoo.all.min.js
-    jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
-    tocbot: /libs/tocbot/tocbot.min.js
-    canvas_nest: /libs/background/canvas-nest.js
-    ribbon: /libs/background/ribbon.min.js
-    ribbonRefresh: /libs/background/ribbon-refresh.min.js
-    ribbon_dynamic: /libs/background/ribbon-dynamic.js
-    instantpage: /libs/instantpage/instantpage.js
-    mermaid: /libs/mermaid/mermaid.min.js
-    fancybox: /libs/fancybox/fancybox.js
-    justifiedGallery: /libs/justifiedGallery/justifiedGallery.min.js
-    prism: /libs/prism/prism.min.js
-    codeblock: /libs/codeBlock/codeBlockFuction.js
-    codelang: /libs/codeBlock/codeLang.js
-    codecopy: /libs/codeBlock/codeCopy.js
-    codeshrink: /libs/codeBlock/codeShrink.js
+    matery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/js/matery.js
+    sc2tc: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/js/tw_cn.js
+    jquery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/jquery/jquery-3.6.0.min.js  #3.6.0 20211109
+    materialize: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/materialize/materialize.min.js # 1.0.0
+    masonry: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/masonry/masonry.pkgd.min.js # v4.0.0
+    aos: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/aos/aos.js
+    scrollProgress: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/scrollprogress/scrollProgress.min.js
+    lightgallery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/lightGallery/js/lightgallery-all.min.js # V1.10.0
+    typed: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/typed/typed.js
+    clicklove: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/others/clicklove.js
+    sakura: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/others/sakura.js
+    star: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/others/star.js
+    snow: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/others/snow.js
+    tcaptcha: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/others/TencentCaptcha.js
+    busuanzi: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/others/busuanzi.pure.mini.js
+    aplayer: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/aplayer/APlayer.min.js
+    meting: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/aplayer/Meting.min.js
+    dplayer: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/dplayer/DPlayer.min.js
+    crypto: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/cryptojs/crypto-js.min.js
+    echarts: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/echarts/echarts.min.js
+    gitalk: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/gitalk/gitalk.min.js
+    valine: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/valine/Valine.min.js # 若想保持最新版，请替换为 https://unpkg.com/valine/dist/Valine.min.js  默认为 /libs/valine/Valine.min.js
+    minivaline: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/minivaline/MiniValine.js # latest
+    waline: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/waline/Waline.min.js # 若想保持最新版，请替换为 https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js 默认为(1.5.2版本) /libs/valine/Valine.min.js
+    twikoo: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/twikoo/twikoo.all.min.js # 若想保持最新版，请替换为 https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js  默认为 /libs/twikoo/twikoo.all.min.js
+    jqcloud: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/jqcloud/jqcloud-1.0.4.min.js
+    tocbot: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/tocbot/tocbot.min.js
+    canvas_nest: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/background/canvas-nest.js
+    ribbon: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/background/ribbon.min.js
+    ribbonRefresh: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/background/ribbon-refresh.min.js
+    ribbon_dynamic: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/background/ribbon-dynamic.js
+    instantpage: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/instantpage/instantpage.js
+    mermaid: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/mermaid/mermaid.min.js
+    fancybox: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/fancybox/fancybox.js
+    justifiedGallery: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/justifiedGallery/justifiedGallery.min.js
+    prism: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/prism/prism.min.js
+    codeblock: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/codeBlock/codeBlockFuction.js
+    codelang: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/codeBlock/codeLang.js
+    codecopy: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/codeBlock/codeCopy.js
+    codeshrink: https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/libs/codeBlock/codeShrink.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/0.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/1.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/2.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/3.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/4.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/5.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/6.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/7.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/8.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/9.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/10.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/11.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/12.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/13.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/14.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/15.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/16.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/17.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/18.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/19.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/20.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/21.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/22.jpg
+- https://cdn.jsdelivr.net/gh/zzturn/zzturn.github.io@master/medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
